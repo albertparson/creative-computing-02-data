@@ -99,7 +99,16 @@ background: linear-gradient(to bottom, #FFEA19, #F08830);
   }
 
 
-
+.box p{
+  font-size: 20px;
+  -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari 3-8 */
+    transform: rotate(-90deg);
+    position: relative;
+    bottom: 110px;
+    left: -230px;
+    color: white;
+}
 
 
 
