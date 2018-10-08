@@ -84,8 +84,25 @@ background: linear-gradient(to bottom, #FFEA19, #F08830);
 .youtube{
   width:100px;
   height:80px;
-
+  position: relative;
+  left: 40%;
+   top: 20%;
 }
+
+.instagram{
+  width: 100px;
+  height: 100px;
+  left: 40%;
+  top: 10%;
+}
+
+.admit{
+  width:150px; 
+  height: 50px;
+  left: 40%;
+   top: 20%;
+}
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -99,9 +116,19 @@ background: linear-gradient(to bottom, #FFEA19, #F08830);
 
      }
 
+     .box-2{
+      width: 65vw;
+     }
+
 
     .box-3{
       height: 20vh;
+    }
+
+
+
+
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -134,17 +161,36 @@ background: linear-gradient(to bottom, #FFEA19, #F08830);
       top: 15%;
       
     }
-    .row{
-      font-size: 48px;
-      line-height: 1.6;
-    }
+    
 }
 
 /* Large devices (laptops/desktops, 1025px and up) */
 @media only screen and (min-width: 1025px) {
   .box {
-    width: 50%;
+    width: 100%;
   }
+
+  .box-1 {
+  width: 50vw;
+  height: 
+  
+}
+
+  .box-2{
+    width: 50vw;
+  }
+
+  .box-3{
+    width: 50vw;
+  }
+
+
+
+
+
+
+
+
 }
 
 /* Extra large devices (large laptops and desktops, 1400px and up) */
