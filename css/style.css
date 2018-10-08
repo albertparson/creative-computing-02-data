@@ -74,10 +74,21 @@ background: linear-gradient(to bottom, #FFEA19, #F08830);
   -ms-transform: rotate(20deg); /* IE 9 */
     -webkit-transform: rotate(20deg); /* Safari 3-8 */
     transform: rotate(-90deg);
-    position: relative;
+    position: absolute;
     bottom: 260px;
     left: -230px;
     color: white;
+}
+
+
+.box-1 p{
+  font-size: 50px;
+  position: absolute;
+  top:-10%;
+  left:10%;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+
 }
 
 
