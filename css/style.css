@@ -82,38 +82,36 @@ background: linear-gradient(to bottom, #FFEA19, #F08830);
 
 
 .youtube{
-  width:160px;
-  height:130px;
+  width:130px;
+  height:100px;
   position: relative;
-  left: 40%;
+  left: 28%;
    top: 40%;
 }
 
 .instagram{
-  width: 140px;
-  height: 140px;
-  position: relative;
-  left: 10%;
-  top: 10%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left:60%;
+  top:40%;
 }
 
-.admit{
-  width:240px; 
-  height: 80px;
-  position: relative;
-  left:-10%;
-  top:-10%;
- 
-   -ms-transform: rotate(20deg); /* IE 9 */
-    -webkit-transform: rotate(20deg); /* Safari 3-8 */
-    transform: rotate(-90deg);
-
+.google{
+  height:100px;
+  width: 100px;
+  position: absolute;
+  left:4%;
+  top:40%
 }
+
 
 .gmail{
 width:130px; 
 height:100px;
+position: relative;
 left: 40%;
+top:60%;
 }
 
 
@@ -140,18 +138,7 @@ left: 40%;
     .box-3{
       height: 20vh;
     }
-.admit{
-  width:240px; 
-  height: 80px;
-  position: relative;
-  left:-40%;
-  top:-10%;
- 
-   -ms-transform: rotate(20deg); /* IE 9 */
-    -webkit-transform: rotate(20deg); /* Safari 3-8 */
-    transform: rotate(-90deg);
-
-}
+    
 
 
 
@@ -190,18 +177,7 @@ left: 40%;
     }
 
 
-    .admit{
-  width:240px; 
-  height: 80px;
-  position: relative;
-  left:-50%;
-  top:20%;
- 
-   -ms-transform: rotate(20deg); /* IE 9 */
-    -webkit-transform: rotate(20deg); /* Safari 3-8 */
-    transform: rotate(-90deg);
-
-}
+  
     
 }
 
@@ -225,18 +201,9 @@ left: 40%;
     width: 50vw;
   }
 
-.admit{
-  width:240px; 
-  height: 80px;
-  position: relative;
-  left:-50%;
-  top:20%;
- 
-   -ms-transform: rotate(20deg); /* IE 9 */
-    -webkit-transform: rotate(20deg); /* Safari 3-8 */
-    transform: rotate(-90deg);
 
-}
+
+
 
 
 
