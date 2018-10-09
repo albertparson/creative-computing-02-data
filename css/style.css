@@ -58,9 +58,9 @@ background: linear-gradient(to bottom, #FFEA19, #F08830);
 .box-3{
   background-color: blue;
   width: 40%;
-  height: 20%;
+  height: 10%;
   left: 30%;
-  transform: translate(-50%,-50%);
+  transform: translate(10%,-50%);
    position: absolute;
   top: 10%;
   left: 25%;
@@ -70,19 +70,16 @@ background: linear-gradient(to bottom, #FFEA19, #F08830);
 
 
 .box-3 p{
-  font-size: 20px;
-  -ms-transform: rotate(20deg); /* IE 9 */
-    -webkit-transform: rotate(20deg); /* Safari 3-8 */
-    transform: rotate(-90deg);
-    position: absolute;
-    bottom: 260px;
-    left: -230px;
-    color: white;
+  font-size: 30px;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  transform: translate(15%,50%);
+ 
 }
 
 
 .box-1 p{
-  font-size: 50px;
+  font-size: 40px;
   position: absolute;
   top:-10%;
   left:10%;
@@ -120,10 +117,25 @@ background: linear-gradient(to bottom, #FFEA19, #F08830);
 .gmail{
 width:130px; 
 height:100px;
-position: relative;
+position:absolute;
 left: 40%;
 top:60%;
 }
+
+.canvas{
+  width:200px; 
+  height:50px;
+  position: absolute;
+  top:40%;
+}
+
+ .dafont{
+  width:130px; 
+  height:100px;
+  position: absolute;
+  left:40%;
+  top:40%;
+ }
 
 
 
