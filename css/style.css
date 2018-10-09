@@ -55,25 +55,24 @@ background: linear-gradient(to bottom, #FFEA19, #F08830);
   
 }
 
-.box-3{
+.row-1{
   background-color: blue;
-  width: 40%;
+  width: 50%;
   height: 10%;
-  left: 30%;
   transform: translate(10%,-50%);
    position: absolute;
   top: 10%;
-  left: 25%;
+  left:5%;
   box-shadow: -20px 20px;
 }
 
 
 
-.box-3 p{
+.box-2 p{
   font-size: 30px;
   font-family: 'Roboto Mono', monospace;
   color: white;
-  transform: translate(15%,50%);
+  transform: translate(5%,23%);
  
 }
 
@@ -118,7 +117,7 @@ background: linear-gradient(to bottom, #FFEA19, #F08830);
 width:130px; 
 height:100px;
 position:absolute;
-left: 40%;
+left: 10%;
 top:60%;
 }
 
@@ -143,12 +142,33 @@ top:60%;
   left:70%;
   top:30%;
 }
+
 .illustrator{
   width:100px; 
   height:100px;
   position: absolute;
-  left:70%;
+  left:40%;
   top:30%;
+}
+
+}
+
+.box-2 p{
+  font-size: 40px;
+  position: absolute;
+  top:-10%;
+  left:10%;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+}
+
+.row-1 p{
+  font-size: 20px;
+  position: absolute;
+  top:-20%;
+  left:10%;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
 }
 
 
@@ -156,24 +176,7 @@ top:60%;
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
-   .box{
-        width: 33.33%;
-      
-      }
-     .box-1{
-      width: 65vw;
-
-     }
-
-     .box-2{
-      width: 65vw;
-     }
-
-
-    .box-3{
-      height: 20vh;
-    }
-    
+  
 
 
 
@@ -205,11 +208,9 @@ top:60%;
      }
 
 
-    .box-3{
-      height: 20vh;
-      top: 15%;
-      
-    }
+    
+   
+
 
 
   
@@ -232,9 +233,10 @@ top:60%;
     width: 50vw;
   }
 
-  .box-3{
-    width: 50vw;
-  }
+
+
+
+  
 
 
 
